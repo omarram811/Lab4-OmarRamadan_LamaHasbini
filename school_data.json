@@ -1,0 +1,65 @@
+{
+    "students": [
+        {
+            "student_id": "S0",
+            "name": "Omar Ramadan",
+            "age": 21,
+            "email": "omar@mail.aub.edu",
+            "registered_courses_ids": [
+                "C0"
+            ]
+        },
+        {
+            "student_id": "S1",
+            "name": "Lama Hasbini",
+            "age": 21,
+            "email": "lama@mail.aub.edu",
+            "registered_courses_ids": [
+                "C1"
+            ]
+        },
+        {
+            "name": "Omar",
+            "age": "25",
+            "email": "ammoura@gmail.com",
+            "student_id": "S002"
+        }
+    ],
+    "instructors": [
+        {
+            "instructor_id": "I0",
+            "name": "Dr. Iman Ghalayini",
+            "age": 34,
+            "email": "iman@mail.aub.edu",
+            "assigned_courses_ids": [
+                "C0"
+            ]
+        },
+        {
+            "name": "Tamara ",
+            "age": "26",
+            "email": "tamara@gmail.com",
+            "instructor_id": "I001"
+        }
+    ],
+    "courses": [
+        {
+            "course_id": "C0",
+            "course_name": "Software Tools Lab",
+            "instructor_id": "I0",
+            "enrolled_students_ids": [
+                "S0"
+            ]
+        },
+        {
+            "course_id": "C1",
+            "course_name": "Internet Security",
+            "instructor_id": null,
+            "enrolled_students_ids": [
+                "S1"
+            ]
+        }
+    ],
+    "registrations": {},
+    "assignments": {}
+}
